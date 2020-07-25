@@ -1,3 +1,109 @@
+$first-font: 'Nunito', sans-serif
+$second-font: 'Yantramanav', sans-serif
+$first-main-color: #fff
+$second-main-color: #000
+$first-additional-color: #20ab50
+$second-additional-color: #dcdcdc
+
+
+%form
+  input
+    display: inline-block
+    width: 312px
+    line-height: 47px
+    padding-left: 29px
+    font-family: $second-font
+    font-weight: 300
+    color: #8c8c8c
+    font-size: 18px
+    background-color: $first-main-color
+    border: 0
+    border-top-left-radius: 50px
+    border-bottom-left-radius: 50px
+
+  button
+    display: inline-block
+    line-height: 47px
+    padding: 0 50px 0 40px
+    font-family: $first-font
+    font-size: 20px
+    color: $first-main-color
+    background-color: $first-additional-color
+    border: 0
+    border-top-right-radius: 50px
+    border-bottom-right-radius: 50px
+
 *
   margin: 0
   padding: 0
+
+.intro
+  background-image: url("../images/intro-bg_01.jpg")
+  background-repeat: no-repeat
+  background-size: cover
+  padding: 33px 56px 281px 35px
+  color: #fff
+
+  .logo
+    margin-bottom: 191px
+
+
+  .header_content
+    display: flex
+    align-items: center
+
+    .coming_soon
+      width: 99%
+      h1
+        font-family: $first-font
+        font-weight: 300
+        font-size: 60px
+        text-align: center
+        text-shadow: 3px 0 80px black
+        margin-bottom: 30px
+
+      p
+        font-family: $second-font
+        font-weight: 100
+        font-size: 20px
+        line-height: 32px
+        text-align: center
+        text-shadow: 3px -2px 8px black
+        max-width: 556px
+        margin: auto
+        margin-bottom: 57px
+
+      form
+        display: flex
+        justify-content: center
+        @extend %form
+
+    nav
+      padding-left: 10px
+      width: 1%
+      ul
+        list-style: none
+
+        li
+          a
+            text-decoration: none
+
+            &:before
+              content: ""
+              display: block
+              width: 8px
+              height: 8px
+              background-color: $second-additional-color
+              border-radius: 50%
+              margin-bottom: 16px
+              transition: .2s linear
+
+            &:hover:before, &:active:before
+              width: 12px
+              height: 12px
+              transition: .2s linear
+
+
+
+
+
