@@ -141,7 +141,37 @@ $second-additional-color: #dcdcdc
     width: 50%
     img
       width: 100%
+      display: block
       height: auto
+
+.what_clients_say
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  .what_clients_say_img
+    width: 50%
+    img
+      width: 100%
+      height: auto
+      display: block
+
+  .what_clients_say_info
+    width: 50%
+    h3
+      @extend %h3
+      margin-bottom: 132px
+
+    p
+      @extend %p
+      font-size: 20px
+      text-align: center
+      line-height: 30px
+      max-width: 350px
+      margin: auto
+      margin-bottom: 108px
+      &:last-of-type
+        margin-bottom: 0
+
 
 
 
