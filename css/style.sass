@@ -37,8 +37,14 @@ $second-additional-color: #dcdcdc
   font-family: $first-font
   font-weight: 300
   font-size: 30px
-  color: $first-main-color
+  color: $second-main-color
   text-align: center
+
+%p
+  font-family: $second-font
+  font-weight: 100
+  color: $second-main-color
+
 
 *
   margin: 0
@@ -52,7 +58,7 @@ $second-additional-color: #dcdcdc
   color: #fff
 
   .logo
-    margin-bottom: 191px
+    margin-bottom: 207px
 
 
   .header_content
@@ -67,11 +73,11 @@ $second-additional-color: #dcdcdc
         font-size: 60px
         text-align: center
         text-shadow: 3px 0 80px black
-        margin-bottom: 30px
+        margin-bottom: 40px
 
       p
         font-family: $second-font
-        font-weight: 100
+        font-weight: 300
         font-size: 20px
         line-height: 32px
         text-align: center
@@ -109,6 +115,35 @@ $second-additional-color: #dcdcdc
               width: 12px
               height: 12px
               transition: .2s linear
+
+.about_plae
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+
+  .about_info
+    width: 50%
+    h3
+      @extend %h3
+      margin-bottom: 48px
+
+    p
+      @extend %p
+      line-height: 24px
+      font-size: 16px
+      max-width: 413px
+      margin: auto
+      margin-bottom: 37px
+      &:last-of-type
+        margin-bottom: 0
+
+  .about_img
+    width: 50%
+    img
+      width: 100%
+      height: auto
+
+
 
 
 
