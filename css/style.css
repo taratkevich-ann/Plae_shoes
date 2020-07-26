@@ -42,17 +42,17 @@
       border-top-left-radius: 50px;
       border-bottom-left-radius: 50px; } }
 
-.about_plae .about_info h3, .what_clients_say .what_clients_say_info h3, .why_plae h3, .find_us h3, .like_to_stock h3, .be_the_first h3 {
+.about_plae .about_info h3, .what_clients_say .what_clients_say_info h3, .the_range h3, .why_plae h3, .find_us h3, .like_to_stock h3, .be_the_first h3 {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-size: 30px;
   color: #000;
   text-align: center; }
   @media screen and (max-width: 450px) {
-    .about_plae .about_info h3, .what_clients_say .what_clients_say_info h3, .why_plae h3, .find_us h3, .like_to_stock h3, .be_the_first h3 {
+    .about_plae .about_info h3, .what_clients_say .what_clients_say_info h3, .the_range h3, .why_plae h3, .find_us h3, .like_to_stock h3, .be_the_first h3 {
       font-size: 25px; } }
 
-.about_plae .about_info p, .what_clients_say .what_clients_say_info p, .why_plae p, .find_us p, .like_to_stock p, .be_the_first p {
+.about_plae .about_info p, .what_clients_say .what_clients_say_info p, .the_range p, .why_plae p, .find_us p, .like_to_stock p, .be_the_first p {
   font-family: "Yantramanav", sans-serif;
   font-weight: 300;
   color: #000; }
@@ -89,7 +89,8 @@
         margin-bottom: 150px; } }
   .intro .header_content {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    justify-content: flex-end; }
     .intro .header_content .coming_soon {
       width: 99%; }
       .intro .header_content .coming_soon h1 {
@@ -143,7 +144,8 @@
         flex-wrap: wrap; }
     .intro .header_content nav {
       padding-left: 15px;
-      width: 1%; }
+      width: 1%;
+      position: fixed; }
       .intro .header_content nav ul {
         list-style: none; }
         .intro .header_content nav ul li a {
@@ -252,6 +254,14 @@
       @media screen and (max-width: 450px) {
         .what_clients_say .what_clients_say_info p:last-of-type {
           margin-bottom: 15px; } }
+
+.the_range h3 {
+  margin-top: 87px;
+  margin-bottom: 27px; }
+.the_range p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 137px; }
 
 .why_plae {
   background-image: url("../images/why-pae-bg_02.jpg");

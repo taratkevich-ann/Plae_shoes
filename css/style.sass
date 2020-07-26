@@ -103,6 +103,7 @@ $second-additional-color: #dcdcdc
   .header_content
     display: flex
     align-items: center
+    justify-content: flex-end
 
     .coming_soon
       width: 99%
@@ -155,6 +156,7 @@ $second-additional-color: #dcdcdc
     nav
       padding-left: 15px
       width: 1%
+      position: fixed
 
       ul
         list-style: none
@@ -279,6 +281,17 @@ $second-additional-color: #dcdcdc
       @include max-screen(450px)
         &:last-of-type
           margin-bottom: 15px
+
+.the_range
+  h3
+    @extend %h3
+    margin-top: 87px
+    margin-bottom: 27px
+  p
+    @extend %p
+    font-size: 18px
+    text-align: center
+    margin-bottom: 137px
 
 .why_plae
   background-image: url("../images/why-pae-bg_02.jpg")
@@ -432,7 +445,6 @@ $second-additional-color: #dcdcdc
     padding: 105px 20px
   @include max-screen(320px)
     padding: 105px 10px
-
 
   h3
     @extend %h3
