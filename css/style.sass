@@ -32,6 +32,11 @@ $second-additional-color: #dcdcdc
     border: 0
     border-top-right-radius: 50px
     border-bottom-right-radius: 50px
+    transition: all .5s linear
+    &:hover
+      color: $first-additional-color
+      background-color:  $first-main-color
+      transition: all .5s linear
 
 %h3
   font-family: $first-font
@@ -42,9 +47,18 @@ $second-additional-color: #dcdcdc
 
 %p
   font-family: $second-font
-  font-weight: 100
+  font-weight: 300
   color: $second-main-color
 
+%link
+  text-decoration: none
+  font-family: $second-font
+  font-weight: 300
+  color: $second-main-color
+  transition: all .5s linear
+  &:hover
+    color: $first-additional-color
+    transition: all .5s linear
 
 *
   margin: 0
@@ -207,11 +221,35 @@ $second-additional-color: #dcdcdc
 
       a
         display: block
-        text-decoration: none
-        font-family: $second-font
+        @extend %link
         font-size: 15px
-        color: $first-additional-color
         margin-bottom: 62px
+
+
+.like_to_stock
+  h3
+    @extend %h3
+    margin-bottom: 23px
+
+  p
+    @extend %p
+    margin-bottom: 52px
+    text-align: center
+
+  .like_to_stock_contacts
+    text-align: center
+    margin-bottom: 78px
+    a
+      text-decoration: none
+      @extend %link
+      font-size: 18px
+      margin-right: 54.5px
+      margin-left: 54.5px
+      &:first-of-type
+        margin-left: 0
+      &:last-of-type
+        margin-right: 0
+
 
 
 
