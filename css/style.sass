@@ -5,10 +5,14 @@ $second-main-color: #000
 $first-additional-color: #20ab50
 $second-additional-color: #dcdcdc
 
+@mixin max-screen($res)
+  @media screen and (max-width: $res)
+    @content
+
 
 %form
   input
-    display: inline-block
+    display: block
     width: 312px
     line-height: 47px
     padding-left: 29px
@@ -20,9 +24,16 @@ $second-additional-color: #dcdcdc
     border: 0
     border-top-left-radius: 50px
     border-bottom-left-radius: 50px
+    @include max-screen(450px)
+      width: 100%
+      margin-bottom: 10px
+      border-top-right-radius: 50px
+      border-bottom-right-radius: 50px
+    @include max-screen(280px)
+      font-size: 16px
 
   button
-    display: inline-block
+    display: block
     line-height: 47px
     padding: 0 50px 0 40px
     font-family: $first-font
@@ -33,10 +44,16 @@ $second-additional-color: #dcdcdc
     border-top-right-radius: 50px
     border-bottom-right-radius: 50px
     transition: all .5s linear
+
     &:hover
       color: $first-additional-color
-      background-color:  $first-main-color
+      background-color: $first-main-color
       transition: all .5s linear
+
+    @include max-screen(450px)
+      width: 100%
+      border-top-left-radius: 50px
+      border-bottom-left-radius: 50px
 
 %h3
   font-family: $first-font
@@ -44,6 +61,8 @@ $second-additional-color: #dcdcdc
   font-size: 30px
   color: $second-main-color
   text-align: center
+  @include max-screen(450px)
+    font-size: 25px
 
 %p
   font-family: $second-font
@@ -56,6 +75,7 @@ $second-additional-color: #dcdcdc
   font-weight: 300
   color: $second-main-color
   transition: all .5s linear
+
   &:hover
     color: $first-additional-color
     transition: all .5s linear
@@ -68,12 +88,17 @@ $second-additional-color: #dcdcdc
   background-image: url("../images/intro-bg_01.jpg")
   background-repeat: no-repeat
   background-size: cover
+  background-position: center
   padding: 33px 56px 281px 35px
   color: #fff
+  @include max-screen(450px)
+    padding: 33px 45px 200px 35px
+    margin-bottom: 15px
 
   .logo
     margin-bottom: 207px
-
+    @include max-screen(450px)
+      margin-bottom: 150px
 
   .header_content
     display: flex
@@ -81,6 +106,7 @@ $second-additional-color: #dcdcdc
 
     .coming_soon
       width: 99%
+
       h1
         font-family: $first-font
         font-weight: 300
@@ -88,6 +114,17 @@ $second-additional-color: #dcdcdc
         text-align: center
         text-shadow: 3px 0 80px black
         margin-bottom: 40px
+        @include max-screen(450px)
+          font-size: 50px
+          margin-bottom: 25px
+        @include max-screen(375px)
+          font-size: 47px
+        @include max-screen(360px)
+          font-size: 44px
+        @include max-screen(320px)
+          font-size: 38px
+        @include max-screen(280px)
+          font-size: 31px
 
       p
         font-family: $second-font
@@ -99,15 +136,26 @@ $second-additional-color: #dcdcdc
         max-width: 556px
         margin: auto
         margin-bottom: 57px
+        @include max-screen(450px)
+          margin-bottom: 25px
+        @include max-screen(375px)
+          line-height: 27px
+        @include max-screen(320px)
+          line-height: 23px
+        @include max-screen(280px)
+          font-size: 17px
+
 
       form
         display: flex
         justify-content: center
+        flex-wrap: wrap
         @extend %form
 
     nav
-      padding-left: 10px
+      padding-left: 15px
       width: 1%
+
       ul
         list-style: none
 
@@ -134,46 +182,87 @@ $second-additional-color: #dcdcdc
   display: flex
   align-items: center
   flex-wrap: wrap
+  @include max-screen(414px)
+    justify-content: center
 
   .about_info
     width: 50%
+    @include max-screen(450px)
+      width: 100%
+
     h3
       @extend %h3
       margin-bottom: 48px
+      @include max-screen(768px)
+        margin-bottom: 10px
 
     p
       @extend %p
       line-height: 24px
       font-size: 16px
       max-width: 413px
+      padding: 0 20px
+      box-sizing: border-box
       margin: auto
       margin-bottom: 37px
+
       &:last-of-type
         margin-bottom: 0
 
+      @include max-screen(768px)
+        margin-bottom: 10px
+        font-size: 15px
+      @include max-screen(450px)
+        &:last-of-type
+          margin-bottom: 15px
+
+
   .about_img
     width: 50%
+    @include max-screen(450px)
+      width: 100%
+
     img
       width: 100%
-      display: block
       height: auto
+      display: block
+      @include max-screen(450px)
+        margin-bottom: 50px
 
 .what_clients_say
   display: flex
   align-items: center
   flex-wrap: wrap
+
   .what_clients_say_img
     width: 50%
+    @include max-screen(450px)
+      width: 100%
+      order: 2
+
     img
       width: 100%
       height: auto
       display: block
 
+  .need_margin
+    @include max-screen(450px)
+      margin-bottom: 90px
+
+
   .what_clients_say_info
     width: 50%
+    @include max-screen(450px)
+      width: 100%
+      order: 1
+    @include max-screen(320px)
+      padding: 0 20px
+
     h3
       @extend %h3
       margin-bottom: 132px
+      @include max-screen(768px)
+        margin-bottom: 90px
 
     p
       @extend %p
@@ -183,21 +272,89 @@ $second-additional-color: #dcdcdc
       max-width: 350px
       margin: auto
       margin-bottom: 108px
+
       &:last-of-type
         margin-bottom: 0
 
+      @include max-screen(450px)
+        &:last-of-type
+          margin-bottom: 15px
+
+.why_plae
+  background-image: url("../images/why-pae-bg_02.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  padding: 82px 59px 0
+
+  h3
+    @extend %h3
+    margin-bottom: 27px
+
+  p
+    @extend %p
+    font-size: 18px
+    text-align: center
+    margin-bottom: 10px
+
+  .why_plae_common_content_block
+//display: flex
+//justify-content: space-between
+//flex-wrap: wrap
+//align-items: flex-start
+
+//.why_plae_content
+//  width: 231px
+//  padding: 17px 19px
+//  box-sizing: border-box
+//  background-color: $first-main-color
+//  border-radius: 10px
+//  margin-bottom: 10px
+//  position: relative
+//  &:after
+//    content: ""
+//    display: inline-block
+//    border-top: 1px solid white
+//    border-left: 1px solid white
+//    min-width: 78px
+//    min-height: 117px
+//
+//  h5
+//    font-family: $second-font
+//    color: $second-main-color
+//    font-size: 16px
+//    margin-bottom: 13px
+//
+//  p
+//    font-size: 15px
+//    text-align: left
+//    line-height: 23px
+
+
+
+
+
+
 .find_us
   padding-top: 97px
+  @include max-screen(450px)
+    padding: 65px 15px 0
 
   h3
     @extend %h3
     margin-bottom: 28px
+    @include max-screen(450px)
+      margin-bottom: 18px
+    @include max-screen(280px)
+      margin-bottom: 10px
 
   p
     @extend %p
     font-size: 18px
     text-align: center
     margin-bottom: 80px
+    @include max-screen(450px)
+      margin-bottom: 50px
 
   .find_us_container
     display: flex
@@ -224,58 +381,93 @@ $second-additional-color: #dcdcdc
         @extend %link
         font-size: 15px
         margin-bottom: 62px
+        @include max-screen(280px)
+          margin-bottom: 45px
 
 
 .like_to_stock
   h3
     @extend %h3
     margin-bottom: 23px
+    @include max-screen(375px)
+      margin-bottom: 15px
+    @include max-screen(280px)
+      margin-bottom: 10px
 
   p
     @extend %p
     margin-bottom: 52px
     text-align: center
+    @include max-screen(375px)
+      margin-bottom: 40px
 
   .like_to_stock_contacts
     text-align: center
     margin-bottom: 78px
+
     a
       text-decoration: none
       @extend %link
       font-size: 18px
       margin-right: 54.5px
       margin-left: 54.5px
+
       &:first-of-type
         margin-left: 0
+
       &:last-of-type
         margin-right: 0
+
+      @include max-screen(450px)
+        margin-right: 20px
+        margin-left: 20px
+      @include max-screen(280px)
+        margin-right: 5px
+        margin-left: 5px
 
 .be_the_first
   padding: 135px 0 115px
   background-color: #f3f3f3
+  @include max-screen(450px)
+    padding: 105px 20px
+  @include max-screen(320px)
+    padding: 105px 10px
+
+
   h3
     @extend %h3
     margin-bottom: 23px
+    @include max-screen(450px)
+      margin-bottom: 15px
+    @include max-screen(360px)
+      font-size: 23px
 
   p
     @extend %p
     font-size: 22px
     text-align: center
     margin-bottom: 49px
+    @include max-screen(360px)
+      font-size: 18px
 
   form
     display: flex
     justify-content: center
+    flex-wrap: wrap
     @extend %form
 
 footer
   background-color: $second-additional-color
   padding: 15px 0 12px 37px
+  @include max-screen(450px)
+    padding-left: 0
 
   p
     font-family: $second-font
     font-size: 14px
     color: $first-main-color
+    @include max-screen(450px)
+      text-align: center
 
 
 
