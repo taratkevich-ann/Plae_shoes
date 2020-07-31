@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .intro .header_content .coming_soon form input, .be_the_first form input {
   display: block;
   width: 312px;
@@ -10,7 +11,8 @@
   background-color: #fff;
   border: 0;
   border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px; }
+  border-bottom-left-radius: 50px;
+  outline: none; }
   @media screen and (max-width: 450px) {
     .intro .header_content .coming_soon form input, .be_the_first form input {
       width: 100%;
@@ -53,7 +55,7 @@
     .about_plae .about_info h3, .what_clients_say .what_clients_say_info h3, .the_range h3, .why_plae h3, .find_us h3, .like_to_stock h3, .be_the_first h3 {
       font-size: 25px; } }
 
-.about_plae .about_info p, .what_clients_say .what_clients_say_info p, .the_range p, .why_plae p, .find_us p, .like_to_stock p, .be_the_first p {
+.about_plae .about_info p, .what_clients_say .what_clients_say_info p, .the_range p, .the_range .owl-carousel .owl-item p, .why_plae p, .find_us p, .like_to_stock p, .be_the_first p {
   font-family: "Yantramanav", sans-serif;
   font-weight: 300;
   color: #000; }
@@ -146,7 +148,8 @@
     .intro .header_content nav {
       padding-left: 15px;
       width: 1%;
-      position: fixed; }
+      position: fixed;
+      z-index: 10; }
       .intro .header_content nav ul {
         list-style: none; }
         .intro .header_content nav ul li a {
@@ -257,12 +260,50 @@
           margin-bottom: 15px; } }
 
 .the_range h3 {
-  margin-top: 87px;
-  margin-bottom: 27px; }
+  margin-top: 87px; }
 .the_range p {
   font-size: 18px;
   text-align: center;
-  margin-bottom: 137px; }
+  margin-bottom: 29px; }
+.the_range .owl-carousel .owl-item {
+  text-align: center; }
+  .the_range .owl-carousel .owl-item img {
+    display: inline-block;
+    width: inherit; }
+  .the_range .owl-carousel .owl-item h4 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 38px; }
+  .the_range .owl-carousel .owl-item p {
+    font-size: 18px; }
+.the_range .owl-carousel .owl-nav .owl-next:before, .the_range .owl-carousel .owl-nav .owl-prev:after {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #c2c2c2;
+  font-size: 14px;
+  width: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 2px solid #c2c2c2;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 352px; }
+.the_range .owl-carousel .owl-nav .owl-next:hover:before, .the_range .owl-carousel .owl-nav .owl-prev:hover:after {
+  color: #fff;
+  background: #c2c2c2;
+  transition: all 0.5s linear; }
+.the_range .owl-carousel .owl-nav .owl-next:before {
+  content: "";
+  left: 210px; }
+.the_range .owl-carousel .owl-nav .owl-prev:after {
+  content: "";
+  right: 210px; }
+.the_range .owl-carousel .owl-nav .owl-dots {
+  display: none; }
 
 .why_plae {
   background-image: url("../images/why-pae-bg_02.jpg");

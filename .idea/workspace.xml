@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beab2fa5-c29b-4f58-9a3e-5aa1fa7f7297" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fB0lBSQgyfJSIrzR5DQlx9eCzv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/LemonSchool/Fapor/css/style.css" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beab2fa5-c29b-4f58-9a3e-5aa1fa7f7297" name="Default Changelist" comment="" />
+      <created>1595676327005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595676327005</updated>
+      <workItem from="1595676328934" duration="15765000" />
+      <workItem from="1595751834141" duration="13356000" />
+      <workItem from="1596204847131" duration="16786000" />
+    </task>
+    <task id="LOCAL-00001" summary="create project">
+      <created>1595676576613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595676576613</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add fonts, created block &quot;intro&quot;">
+      <created>1595677323235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595677323235</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add fontawesome, add styles for block &quot;intro&quot;">
+      <created>1595684768606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595684768606</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created block &quot;about_plae&quot;">
+      <created>1595685269207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595685269207</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add styles for block &quot;about_plae&quot;">
+      <created>1595686484873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595686484873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created block &quot;what_clients_say&quot; and added styles for it">
+      <created>1595687414786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595687414786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished block &quot;what_clients_say&quot;">
+      <created>1595688923869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595688923869</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created block &quot;find_us&quot; and added styles for it">
+      <created>1595693017286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595693017286</updated>
+    </task>
+    <task id="LOCAL-00009" summary="created block &quot;like_to_stock&quot; and added styles for it">
+      <created>1595753915939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595753915939</updated>
+    </task>
+    <task id="LOCAL-00010" summary="created block &quot;be_the_first&quot; and  footer, added styles for them">
+      <created>1595754779496</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595754779496</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add adaptive">
+      <created>1595764016967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595764016967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="created block &quot;the_range&quot; ad added anchors">
+      <created>1595765506884</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595765506884</updated>
+    </task>
+    <task id="LOCAL-00013" summary="created block &quot;why_plae&quot; and added styles for it">
+      <created>1596215710075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596215710075</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <MESSAGE value="add fonts, created block &quot;intro&quot;" />
+    <MESSAGE value="add fontawesome, add styles for block &quot;intro&quot;" />
+    <MESSAGE value="created block &quot;about_plae&quot;" />
+    <MESSAGE value="add styles for block &quot;about_plae&quot;" />
+    <MESSAGE value="created block &quot;what_clients_say&quot; and added styles for it" />
+    <MESSAGE value="finished block &quot;what_clients_say&quot;" />
+    <MESSAGE value="created block &quot;find_us&quot; and added styles for it" />
+    <MESSAGE value="created block &quot;like_to_stock&quot; and added styles for it" />
+    <MESSAGE value="created block &quot;be_the_first&quot; and  footer, added styles for them" />
+    <MESSAGE value="add adaptive" />
+    <MESSAGE value="created block &quot;the_range&quot; ad added anchors" />
+    <MESSAGE value="created block &quot;why_plae&quot; and added styles for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="created block &quot;why_plae&quot; and added styles for it" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="0" key="CommitChangelistDialog2" timestamp="1596215704453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596215704453" />
+    <state x="301" y="129" key="EditFileWatcherDialog" timestamp="1595676378569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="301" y="129" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1595676378569" />
+    <state x="499" y="84" key="FileChooserDialogImpl" timestamp="1596219570402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596219570402" />
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1596215714476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596215714476" />
+    <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1596204848693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="379" y="185" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596204848693" />
+  </component>
+</project>

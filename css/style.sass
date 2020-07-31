@@ -24,6 +24,7 @@ $second-additional-color: #dcdcdc
     border: 0
     border-top-left-radius: 50px
     border-bottom-left-radius: 50px
+    outline: none
     @include max-screen(450px)
       width: 100%
       margin-bottom: 10px
@@ -158,6 +159,7 @@ $second-additional-color: #dcdcdc
       padding-left: 15px
       width: 1%
       position: fixed
+      z-index: 10
 
       ul
         list-style: none
@@ -287,13 +289,67 @@ $second-additional-color: #dcdcdc
   h3
     @extend %h3
     margin-top: 87px
-    margin-bottom: 27px
+  //margin-bottom: 27px
 
   p
     @extend %p
     font-size: 18px
     text-align: center
-    margin-bottom: 137px
+    margin-bottom: 29px
+
+  .owl-carousel
+    .owl-item
+      text-align: center
+
+      img
+        display: inline-block
+        width: inherit
+
+      h4
+        font-family: $first-font
+        font-weight: 300
+        font-size: 24px
+        text-align: center
+        margin-bottom: 38px
+
+      p
+        @extend %p
+        font-size: 18px
+
+    .owl-nav
+      .owl-next:before, .owl-prev:after
+        content: ""
+        display: inline-block
+        font-family: 'Font Awesome 5 Free' !important
+        font-weight: 900 !important
+        color: #c2c2c2
+        font-size: 14px
+        width: 34px
+        line-height: 34px
+        text-align: center
+        border: 2px solid #c2c2c2
+        border-radius: 50%
+        position: absolute
+        bottom: 352px
+
+      .owl-next:hover:before, .owl-prev:hover:after
+        color: $first-main-color
+        background: #c2c2c2
+        transition: all .5s linear
+
+      .owl-next
+        &:before
+          content: "\f053"
+          left: 210px
+
+      .owl-prev
+        &:after
+          content: "\f054"
+          right: 210px
+
+      .owl-dots
+        display: none
+
 
 .why_plae
   background-image: url("../images/why-pae-bg_02.jpg")
