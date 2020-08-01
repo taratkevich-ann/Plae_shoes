@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* variables declaration */
+/* start templates declaration */
 .intro .header_content .coming_soon form input, .be_the_first form input {
   display: block;
   width: 312px;
@@ -70,10 +72,13 @@
     color: #20ab50;
     transition: all 0.5s linear; }
 
+/* end templates declaration */
+/* main styles */
 * {
   margin: 0;
   padding: 0; }
 
+/* start intro block */
 .intro {
   background-image: url("../images/intro-bg_01.jpg");
   background-repeat: no-repeat;
@@ -168,6 +173,8 @@
             height: 12px;
             transition: 0.2s linear; }
 
+/* end intro block */
+/* start about_plae block */
 .about_plae {
   display: flex;
   align-items: center;
@@ -215,6 +222,8 @@
         .about_plae .about_img img {
           margin-bottom: 50px; } }
 
+/* end about_plae block */
+/* start what_clients_say block */
 .what_clients_say {
   display: flex;
   align-items: center;
@@ -242,23 +251,40 @@
       .what_clients_say .what_clients_say_info {
         padding: 0 20px; } }
     .what_clients_say .what_clients_say_info h3 {
-      margin-bottom: 132px; }
-      @media screen and (max-width: 768px) {
-        .what_clients_say .what_clients_say_info h3 {
-          margin-bottom: 90px; } }
+      margin-bottom: 78px; }
     .what_clients_say .what_clients_say_info p {
       font-size: 20px;
       text-align: center;
       line-height: 30px;
-      max-width: 350px;
+      max-width: 355px;
       margin: auto;
-      margin-bottom: 108px; }
+      padding: 50px 18px 16px 13px;
+      box-sizing: border-box;
+      position: relative;
+      margin-bottom: 87px; }
+      .what_clients_say .what_clients_say_info p:first-of-type:before, .what_clients_say .what_clients_say_info p:first-of-type:after {
+        content: '"';
+        display: block;
+        font-family: "Nunito", sans-serif;
+        font-weight: 300;
+        color: #dcdcdc;
+        font-size: 72px;
+        position: absolute; }
+      .what_clients_say .what_clients_say_info p:first-of-type:before {
+        top: 10px;
+        left: 0; }
+      .what_clients_say .what_clients_say_info p:first-of-type:after {
+        bottom: -20px;
+        right: 0; }
       .what_clients_say .what_clients_say_info p:last-of-type {
+        padding: 0;
         margin-bottom: 0; }
       @media screen and (max-width: 450px) {
         .what_clients_say .what_clients_say_info p:last-of-type {
           margin-bottom: 15px; } }
 
+/* end what_clients_say block */
+/* start the_range block */
 .the_range h3 {
   margin-top: 87px;
   margin-bottom: 27px; }
@@ -282,7 +308,8 @@
     text-align: center;
     margin-bottom: 38px; }
   .the_range .owl-carousel .owl-item p {
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 82px; }
 .the_range .owl-carousel .owl-nav .owl-next:before, .the_range .owl-carousel .owl-nav .owl-prev:after {
   content: "";
   display: inline-block;
@@ -325,6 +352,8 @@
 .the_range .owl-carousel .owl-nav .owl-dots {
   display: none; }
 
+/* end the_range block */
+/* start why_plae block */
 .why_plae {
   background-image: url("../images/why-pae-bg_02.jpg");
   background-size: cover;
@@ -672,6 +701,8 @@
         line-height: 23px;
         margin-bottom: 0; }
 
+/* end why_plae block */
+/* start find_us block */
 .find_us {
   padding-top: 97px; }
   @media screen and (max-width: 450px) {
@@ -716,6 +747,8 @@
           .find_us .find_us_container .best_foot_forward a {
             margin-bottom: 45px; } }
 
+/* end find_us block */
+/* start like_to_stock block */
 .like_to_stock h3 {
   margin-bottom: 23px; }
   @media screen and (max-width: 375px) {
@@ -751,6 +784,8 @@
         margin-right: 5px;
         margin-left: 5px; } }
 
+/* end like_to_stock block */
+/* start be_the_first block */
 .be_the_first {
   padding: 135px 0 115px;
   background-color: #f3f3f3; }
@@ -780,6 +815,8 @@
     justify-content: center;
     flex-wrap: wrap; }
 
+/* end be_the_first block */
+/* start footer */
 footer {
   background-color: #dcdcdc;
   padding: 15px 0 12px 37px; }
@@ -793,5 +830,7 @@ footer {
     @media screen and (max-width: 450px) {
       footer p {
         text-align: center; } }
+
+/* end footer */
 
 /*# sourceMappingURL=style.css.map */

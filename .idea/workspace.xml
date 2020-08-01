@@ -68,7 +68,7 @@
       <workItem from="1595676328934" duration="15765000" />
       <workItem from="1595751834141" duration="13356000" />
       <workItem from="1596204847131" duration="17018000" />
-      <workItem from="1596272725824" duration="13498000" />
+      <workItem from="1596272725824" duration="16879000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1595676576613</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596277127401</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added adaptive for blocks &quot;the_range&quot; and &quot;why_plae&quot;">
+      <created>1596287710835</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1596287710835</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,13 +204,14 @@
     <MESSAGE value="created block &quot;why_plae&quot; and added styles for it" />
     <MESSAGE value="added owl-carousel to block &quot;range&quot;" />
     <MESSAGE value="added smooth scroll and modal window for block &quot;like_to_stock&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added smooth scroll and modal window for block &quot;like_to_stock&quot;" />
+    <MESSAGE value="added adaptive for blocks &quot;the_range&quot; and &quot;why_plae&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added adaptive for blocks &quot;the_range&quot; and &quot;why_plae&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="0" key="CommitChangelistDialog2" timestamp="1596277120614">
+    <state x="516" y="0" key="CommitChangelistDialog2" timestamp="1596287706719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="516" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596277120614" />
+    <state x="516" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596287706719" />
     <state x="301" y="129" key="EditFileWatcherDialog" timestamp="1595676378569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -212,10 +220,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596275736300" />
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1596277132271">
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1596287721087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596277132271" />
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596287721087" />
     <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1596272819495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
