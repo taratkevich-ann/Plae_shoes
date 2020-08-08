@@ -17,10 +17,9 @@ $second-additional-color: #dcdcdc
 /* start templates declaration*/
 %form
   input
-    display: block
-    width: 308px
-    line-height: 47px
-    padding-left: 30px
+    display: inline-block
+    width: 311px
+    padding: 13px 0 11px 30px
     font-family: $second-font
     font-weight: 300
     color: #8c8c8c
@@ -40,14 +39,12 @@ $second-additional-color: #dcdcdc
       font-size: 16px
 
   button
-    display: block
-    line-height: 47px
-    //min-width: 166px
-    padding: 0 50px 0 40px
+    display: inline-block
+    padding: 10px 50px 10px 40px
     font-family: $first-font
+    font-weight: 400
     font-size: 20px
     color: $first-main-color
-    //text-align: center
     background-color: $first-additional-color
     border: 0
     border-top-right-radius: 50px
@@ -163,18 +160,23 @@ $second-additional-color: #dcdcdc
 
       form
         display: flex
+        align-items: flex-start
         justify-content: center
         flex-wrap: wrap
         @extend %form
 
     nav
-      padding-left: 15px
-      //width: 1%
+      padding-left: 5px
+      width: 1%
+      box-sizing: border-box
       position: fixed
       z-index: 10
 
       ul
         list-style: none
+        margin-block-start: 0
+        margin-block-end: 0
+        padding-inline-start: 0
 
         li
           a
@@ -193,9 +195,11 @@ $second-additional-color: #dcdcdc
             &:hover:before, &.active:before
               width: 12px
               height: 12px
+              transition: .2s linear
+
+            &.active:before
               position: relative
               right: 1px
-              transition: .2s linear
 
 /* end intro block */
 
@@ -336,8 +340,9 @@ $second-additional-color: #dcdcdc
   position: relative
   h3
     @extend %h3
-    margin-top: 87px
-    margin-bottom: 27px
+    margin-top: 76px
+    margin-bottom: 12px
+    padding-left: 28px
 
   p
     @extend %p
@@ -356,26 +361,26 @@ $second-additional-color: #dcdcdc
       width: 100%
       .slider_img
         height: 452px
+        margin-bottom: 6px
         img
           width: 100%
           height: 100%
 
       h4
         font-family: $first-font
-        font-weight: 300
         font-size: 24px
         text-align: center
-        margin-bottom: 38px
+        margin-bottom: 25px
 
       p
         @extend %p
-        font-size: 18px
-        margin-bottom: 82px
+        font-size: 15px
+        margin-bottom: 74px
 
     .prev, .next
       display: block
       color: #c2c2c2
-      font-size: 22px
+      font-size: 14px
       width: 34px
       line-height: 34px
       text-align: center
@@ -383,33 +388,17 @@ $second-additional-color: #dcdcdc
       border: 2px solid #c2c2c2
       border-radius: 50%
       position: absolute
-      bottom: 352px
+      bottom: 278px
       cursor: pointer
       outline: none
       @include max-screen(450px)
         bottom: 127px
 
     .prev
-      left: -153px
+      left: -192px
 
     .next
-      right: -153px
-    //.btn_next:after
-    //  content: "\2039"
-    //  left: -153px
-    //  //@include max-screen(768px)
-    //  //  left: 65px
-    //  //@include max-screen(450px)
-    //  //  left: 50px
-
-
-    //.btn_prev:after
-    //  content: "\203A"
-    //  right: -153px
-    //  //@include max-screen(768px)
-    //  //  right: 65px
-    //  //@include max-screen(450px)
-    //  //  right: 50px
+      right: -192px
 
     .prev:hover, .next:hover
       color: $first-main-color
@@ -422,20 +411,21 @@ $second-additional-color: #dcdcdc
 /* start why_plae block */
 .why_plae
   background-image: url("../images/why-pae-bg_02.jpg")
-  background-size: cover
   background-repeat: no-repeat
   background-position: center
-  padding: 82px 59px 30px
+  padding: 79px 59px 21px
+  @include min-screen(1281px)
+    background-size: cover
 
   h3
     @extend %h3
-    margin-bottom: 27px
+    margin-bottom: 13px
 
   p
     @extend %p
     font-size: 18px
     text-align: center
-    margin-bottom: 10px
+    margin-bottom: 5px
 
   .why_plae_common_content_block
     display: flex
@@ -449,27 +439,38 @@ $second-additional-color: #dcdcdc
 
     .why_plae_content
       width: 231px
-      padding: 17px 19px
+      padding: 12px 16px
       box-sizing: border-box
       background-color: $first-main-color
       border-radius: 10px
-      margin-bottom: 10px
+      margin-bottom: 12px
       position: relative
 
       &:after
         content: ""
         display: inline-block
-        width: 198px
-        height: 113px
+        width: 79px
+        height: 109px
         background-color: transparent
         border-top: 1px solid $first-main-color
         border-right: 1px solid $first-main-color
         position: absolute
         left: 230px
-        top: 68px
+        top: 44px
+        @include min-screen(1400px)
+          width: 116px
+        @include min-screen(1440px)
+          width: 125px
+          height: 100px
+        @include min-screen(1536px)
+          width: 155px
+        @include min-screen(1600px)
+          width: 171px
+        @include min-screen(1680px)
+          width: 196x
         @include min-screen(1920px)
-          width: 268px
-          height: 102px
+          width: 96px
+          height: 113px
         @include min-screen(2048px)
           width: 302px
           height: 94px
@@ -480,9 +481,19 @@ $second-additional-color: #dcdcdc
 
       &.left_part:nth-child(2):after
         border-right: 0
-        width: 220px
+        width: 93px
         height: 0
-        top: 100px
+        top: 111px
+        @include min-screen(1400px)
+          width: 122px
+        @include min-screen(1440px)
+          width: 143px
+        @include min-screen(1536px)
+          width: 167px
+        @include min-screen(1600px)
+          width: 195px
+        @include min-screen(1680px)
+          width: 223px
         @include min-screen(1920px)
           width: 288px
         @include min-screen(2048px)
@@ -490,9 +501,23 @@ $second-additional-color: #dcdcdc
 
       &.left_part:nth-child(3):after
         border-right: 0
-        width: 240px
+        width: 111px
         height: 0
-        top: 47px
+        top: 46px
+        @include min-screen(1400px)
+          width: 142px
+          top: 54px
+        @include min-screen(1440px)
+          width: 156px
+        @include min-screen(1536px)
+          width: 185px
+          top: 61px
+        @include min-screen(1600px)
+          width: 209px
+          top: 64px
+        @include min-screen(1680px)
+          width: 239px
+          top: 69px
         @include min-screen(1920px)
           width: 298px
           top: 62px
@@ -505,9 +530,26 @@ $second-additional-color: #dcdcdc
       &.left_part:nth-child(4):after
         border-top: 0
         border-bottom: 1px solid $first-main-color
-        width: 400px
+        width: 232px
         height: 55px
-        top: 25px
+        top: 0
+        @include min-screen(1400px)
+          width: 280px
+          top: 16px
+        @include min-screen(1440px)
+          width: 304px
+          height: 51px
+          top: 27px
+        @include min-screen(1536px)
+          width: 334px
+          height: 59px
+          top: 45px
+        @include min-screen(1600px)
+          width: 362px
+        @include min-screen(1680px)
+          width: 394px
+          height: 46px
+          top: 61px
         @include min-screen(1920px)
           width: 482px
           height: 44px
@@ -523,12 +565,29 @@ $second-additional-color: #dcdcdc
           top: 114px
 
       &.right_part:first-of-type:after
-        width: 528px
+        width: 327px
         height: 100px
         border-right: 0
         border-left: 1px solid $first-main-color
-        left: -525px
-        top: 50%
+        left: -327px
+        top: 40%
+        @include min-screen(1400px)
+          width: 384px
+          left: -384px
+        @include min-screen(1440px)
+          width: 400px
+          left: -400px
+        @include min-screen(1536px)
+          width: 449px
+          left: -449px
+        @include min-screen(1600px)
+          height: 95px
+          width: 478px
+          left: -478px
+        @include min-screen(1680px)
+          height: 92px
+          width: 520px
+          left: -520px
         @include min-screen(1920px)
           width: 633px
           left: -633px
@@ -541,12 +600,27 @@ $second-additional-color: #dcdcdc
           left: -781px
 
       &.right_part:nth-child(2):after
-        width: 460px
+        width: 273px
         height: 100px
         border-right: 0
         border-left: 1px solid $first-main-color
-        left: -458px
-        top: 50%
+        left: -273px
+        top: 34%
+        @include min-screen(1400px)
+          width: 333px
+          left: -333px
+        @include min-screen(1440px)
+          width: 349px
+          left: -349px
+        @include min-screen(1536px)
+          width: 385px
+          left: -385px
+        @include min-screen(1600px)
+          width: 416px
+          left: -416px
+        @include min-screen(1680px)
+          width: 450px
+          left: -450px
         @include min-screen(1920px)
           width: 568px
           left: -568px
@@ -558,11 +632,28 @@ $second-additional-color: #dcdcdc
           left: -694px
 
       &.right_part:nth-child(3):after
-        width: 205px
+        width: 101px
         height: 0
         border-right: 0
-        left: -205px
-        top: 28%
+        left: -101px
+        top: 25%
+        @include min-screen(1400px)
+          width: 148px
+          left: -148px
+        @include min-screen(1440px)
+          width: 164px
+          left: -164px
+        @include min-screen(1536px)
+          width: 173px
+          left: -173px
+          top: 28%
+        @include min-screen(1600px)
+          width: 179px
+          left: -179px
+          top: 35%
+        @include min-screen(1680px)
+          width: 199px
+          left: -199px
         @include min-screen(1920px)
           width: 296px
           left: -296px
@@ -571,14 +662,34 @@ $second-additional-color: #dcdcdc
           left: -346px
 
       &.right_part:nth-child(4):after
-        width: 333px
-        height: 75px
+        width: 181px
+        height: 54px
         border-right: 0
         border-left: 1px solid $first-main-color
         border-top: 0
         border-bottom: 1px solid $first-main-color
-        left: -333px
-        top: 3%
+        left: -181px
+        top: -5%
+        @include min-screen(1400px)
+          width: 225px
+          left: -225px
+          top: 1%
+        @include min-screen(1440px)
+          width: 239px
+          left: -239px
+        @include min-screen(1536px)
+          width: 273px
+          left: -273px
+        @include min-screen(1600px)
+          height: 48px
+          width: 299px
+          left: -299px
+          top: 5%
+        @include min-screen(1680px)
+          height: 44px
+          width: 299px
+          left: -299px
+          top: 8%
         @include min-screen(1920px)
           width: 421px
           height: 57px
@@ -598,10 +709,30 @@ $second-additional-color: #dcdcdc
         border-right: 0
         border-top: 0
         border-bottom: 1px solid $first-main-color
-        width: 550px
+        width: 349px
         height: 0
-        left: -550px
-        top: 32%
+        left: -349px
+        top: 6%
+        @include min-screen(1400px)
+          width: 407px
+          left: -407px
+          top: 32%
+        @include min-screen(1440px)
+          width: 423px
+          left: -423px
+          top: 31%
+        @include min-screen(1536px)
+          width: 476px
+          left: -476px
+          top: 60%
+        @include min-screen(1600px)
+          width: 499px
+          left: -499px
+          top: 69%
+        @include min-screen(1680px)
+          width: 529px
+          left: -529px
+          top: 81%
         @include min-screen(1920px)
           width: 666px
           left: -666px
@@ -624,9 +755,23 @@ $second-additional-color: #dcdcdc
         border: 4px solid rgba(255, 255, 255, .5)
         border-radius: 50%
         position: absolute
-        top: 167px
-        left: 417px
+        top: 150px
+        left: 299px
         z-index: 2
+        @include min-screen(1400px)
+          left: 335px
+        @include min-screen(1440px)
+          top: 142px
+          left: 345px
+        @include min-screen(1536px)
+          top: 137px
+          left: 374px
+        @include min-screen(1600px)
+          top: 132px
+          left: 391px
+        @include min-screen(1680px)
+          top: 129px
+          left: 415px
         @include min-screen(1920px)
           top: 160px
           left: 487px
@@ -640,16 +785,40 @@ $second-additional-color: #dcdcdc
           display: none
 
       &.left_part:nth-child(2):before
-        top: 90px
-        left: 440px
+        top: 100px
+        left: 317px
+        @include min-screen(1400px)
+          left: 346px
+        @include min-screen(1440px)
+          left: 359px
+        @include min-screen(1536px)
+          left: 385px
+        @include min-screen(1600px)
+          left: 416px
+        @include min-screen(1680px)
+          left: 442px
         @include min-screen(1920px)
           left: 507px
         @include min-screen(2048px)
           left: 545px
 
       &.left_part:nth-child(3):before
-        top: 37px
-        left: 459px
+        top: 35px
+        left: 329px
+        @include min-screen(1400px)
+          top: 43px
+          left: 363px
+        @include min-screen(1440px)
+          left: 374px
+        @include min-screen(1536px)
+          top: 50px
+          left: 405px
+        @include min-screen(1600px)
+          top: 53px
+          left: 428px
+        @include min-screen(1680px)
+          top: 58px
+          left: 454px
         @include min-screen(1920px)
           top: 50px
           left: 516px
@@ -660,8 +829,23 @@ $second-additional-color: #dcdcdc
           top: 88px
 
       &.left_part:nth-child(4):before
-        top: 19px
-        left: 619px
+        top: -18px
+        left: 451px
+        @include min-screen(1400px)
+          top: 7px
+          left: 500px
+        @include min-screen(1440px)
+          top: 14px
+          left: 524px
+        @include min-screen(1536px)
+          top: 31px
+          left: 554px
+        @include min-screen(1600px)
+          top: 41px
+          left: 581px
+        @include min-screen(1680px)
+          top: 55px
+          left: 614px
         @include min-screen(1920px)
           top: 56px
           left: 701px
@@ -673,8 +857,22 @@ $second-additional-color: #dcdcdc
           left: 779px
 
       &.right_part:first-of-type:before
-        top: 140px
-        left: -535px
+        top: 123px
+        left: -337px
+        @include min-screen(1400px)
+          top: 119px
+          left: -394px
+        @include min-screen(1440px)
+          left: -411px
+        @include min-screen(1536px)
+          top: 113px
+          left: -460px
+        @include min-screen(1600px)
+          top: 106px
+          left: -489px
+        @include min-screen(1680px)
+          top: 103px
+          left: -530px
         @include min-screen(1920px)
           left: -644px
         @include min-screen(2048px)
@@ -684,7 +882,22 @@ $second-additional-color: #dcdcdc
           top: 108px
 
       &.right_part:nth-child(2):before
-        left: -468px
+        left: -284px
+        top: 131px
+        @include min-screen(1400px)
+          top: 128px
+          left: -344px
+        @include min-screen(1440px)
+          left: -360px
+          top: 130px
+        @include min-screen(1536px)
+          left: -396px
+          top: 136px
+        @include min-screen(1600px)
+          left: -427px
+          top: 132px
+        @include min-screen(1680px)
+          left: -461px
         @include min-screen(1920px)
           left: -577px
           top: 164px
@@ -695,16 +908,42 @@ $second-additional-color: #dcdcdc
           left: -704px
 
       &.right_part:nth-child(3):before
-        top: 26px
-        left: -215px
+        top: 17px
+        left: -109px
+        @include min-screen(1400px)
+          left: -159px
+        @include min-screen(1440px)
+          left: -175px
+        @include min-screen(1536px)
+          left: -188px
+          top: 21px
+        @include min-screen(1600px)
+          left: -194px
+          top: 28px
+        @include min-screen(1680px)
+          left: -216px
         @include min-screen(1920px)
           left: -303px
         @include min-screen(2048px)
           left: -354px
 
       &.right_part:nth-child(4):before
-        top: -10px
-        left: -344px
+        top: -21px
+        left: -192px
+        @include min-screen(1400px)
+          left: -236px
+          top: -11px
+        @include min-screen(1440px)
+          left: -250px
+        @include min-screen(1536px)
+          top: -3px
+          left: -284px
+        @include min-screen(1600px)
+          top: 1px
+          left: -310px
+        @include min-screen(1680px)
+          top: 8px
+          left: -337px
         @include min-screen(1920px)
           left: -429px
           top: 0
@@ -716,8 +955,22 @@ $second-additional-color: #dcdcdc
           top: 43px
 
       &.right_part:nth-child(5):before
-        top: 25px
-        left: -560px
+        top: -7px
+        left: -368px
+        @include min-screen(1400px)
+          top: 17px
+          left: -419px
+        @include min-screen(1440px)
+          left: -432px
+        @include min-screen(1536px)
+          top: 43px
+          left: -488px
+        @include min-screen(1600px)
+          top: 51px
+          left: -512px
+        @include min-screen(1680px)
+          top: 63px
+          left: -548px
         @include min-screen(1920px)
           left: -675px
           top: 75px
@@ -731,7 +984,7 @@ $second-additional-color: #dcdcdc
         font-family: $second-font
         color: $second-main-color
         font-size: 16px
-        margin-bottom: 13px
+        margin-bottom: 1px
 
       p
         font-size: 15px
@@ -742,13 +995,13 @@ $second-additional-color: #dcdcdc
 
 /* start find_us block */
 .find_us
-  padding-top: 97px
+  padding-top: 77px
   @include max-screen(450px)
     padding: 65px 15px 0
 
   h3
     @extend %h3
-    margin-bottom: 14px
+    margin-bottom: 12px
     @include max-screen(450px)
       margin-bottom: 18px
     @include max-screen(280px)
@@ -758,7 +1011,7 @@ $second-additional-color: #dcdcdc
     @extend %p
     font-size: 18px
     text-align: center
-    margin-bottom: 70px
+    margin-bottom: 71px
     @include max-screen(450px)
       margin-bottom: 50px
 
@@ -786,14 +1039,14 @@ $second-additional-color: #dcdcdc
         display: block
         @extend %link
         font-size: 15px
-        margin-bottom: 51px
+        margin-bottom: 53px
         @include max-screen(280px)
           margin-bottom: 45px
 
       .bigger_margin
-        margin-bottom: 59px
+        margin-bottom: 58px
         @include max-screen(768px)
-          margin-bottom: 51px
+          margin-bottom: 53px
 
 /* end find_us block */
 
@@ -802,7 +1055,7 @@ $second-additional-color: #dcdcdc
   h3
     @extend %h3
     font-size: 24px
-    margin-bottom: 14px
+    margin-bottom: 12px
     @include max-screen(375px)
       margin-bottom: 15px
     @include max-screen(280px)
@@ -811,39 +1064,24 @@ $second-additional-color: #dcdcdc
   p
     @extend %p
     text-align: center
-    margin-bottom: 41px
+    margin-bottom: 42px
 
   .like_to_stock_contacts
     display: flex
     justify-content: space-between
     max-width: 350px
     margin: auto
-    margin-bottom: 78px
+    margin-bottom: 76px
 
     a
       text-decoration: none
       @extend %link
       font-size: 18px
-      //margin-right: 54.5px
-      //margin-left: 54.5px
-
-      //&:first-of-type
-      //  margin-left: 0
-      //
-      //&:last-of-type
-      //  margin-right: 0
-      //
-      //@include max-screen(450px)
-      //  margin-right: 20px
-      //  margin-left: 20px
-      //@include max-screen(280px)
-      //  margin-right: 5px
-      //  margin-left: 5px
 /* end like_to_stock block */
 
 /* start be_the_first block */
 .be_the_first
-  padding: 135px 0 115px
+  padding: 127px 0 113px
   background-color: #f3f3f3
   @include max-screen(450px)
     padding: 105px 20px
@@ -852,17 +1090,13 @@ $second-additional-color: #dcdcdc
 
   h3
     @extend %h3
-    margin-bottom: 23px
-    @include max-screen(450px)
-      margin-bottom: 15px
-    @include max-screen(360px)
-      font-size: 23px
+    margin-bottom: 8px
 
   p
     @extend %p
     font-size: 22px
     text-align: center
-    margin-bottom: 49px
+    margin-bottom: 44px
     @include max-screen(360px)
       font-size: 18px
 
@@ -871,12 +1105,11 @@ $second-additional-color: #dcdcdc
     justify-content: center
     flex-wrap: wrap
     @extend %form
-/* end be_the_first block */
 
 /* start footer */
 footer
   background-color: $second-additional-color
-  padding: 15px 0 12px 37px
+  padding: 12px 0 11px 37px
   @include max-screen(450px)
     padding-left: 0
 
