@@ -367,6 +367,15 @@
   @media screen and (min-width: 1281px) {
     .why_plae {
       background-size: cover; } }
+  @media screen and (min-width: 1920px) {
+    .why_plae {
+      padding-bottom: 94px; } }
+  @media screen and (min-width: 2048px) {
+    .why_plae {
+      padding-bottom: 144px; } }
+  @media screen and (min-width: 2560px) {
+    .why_plae {
+      padding-bottom: 258px; } }
   .why_plae h3 {
     margin-bottom: 13px; }
   .why_plae p {
@@ -403,6 +412,9 @@
         position: absolute;
         left: 230px;
         top: 44px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content:after {
+            width: 108px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
             width: 116px; } }
@@ -418,18 +430,18 @@
             width: 171px; } }
         @media screen and (min-width: 1680px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
-            width: 196x; } }
+            width: 196px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
-            width: 96px;
-            height: 113px; } }
+            width: 268px;
+            height: 107px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
             width: 302px;
-            height: 94px; } }
+            height: 130px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
-            height: 64px; } }
+            height: 150px; } }
         @media screen and (max-width: 1024px) {
           .why_plae .why_plae_common_content_block .why_plae_content:after {
             display: none; } }
@@ -438,6 +450,9 @@
         width: 93px;
         height: 0;
         top: 111px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):after {
+            width: 136px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):after {
             width: 122px; } }
@@ -455,15 +470,26 @@
             width: 223px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):after {
-            width: 288px; } }
+            width: 297px;
+            top: 130px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):after {
-            width: 325px; } }
+            width: 340px;
+            top: 140px; } }
+        @media screen and (min-width: 2560px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):after {
+            border-right: 1px solid #fff;
+            height: 55px;
+            width: 345px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
         border-right: 0;
         width: 111px;
         height: 0;
         top: 46px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
+            width: 140px;
+            top: 51px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
             width: 142px;
@@ -485,21 +511,29 @@
             top: 69px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
-            width: 298px;
-            top: 62px; } }
+            width: 302px;
+            top: 115px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
-            width: 339px;
-            top: 82px; } }
+            width: 342px;
+            top: 149px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):after {
-            top: 100px; } }
+            top: 100px;
+            border-right: 1px solid #fff;
+            height: 113px;
+            width: 340px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
         border-top: 0;
         border-bottom: 1px solid #fff;
         width: 232px;
         height: 55px;
         top: 0; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
+            width: 274px;
+            height: 64px;
+            top: 16px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
             width: 280px;
@@ -524,19 +558,22 @@
             top: 61px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
-            width: 482px;
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            width: 496px;
             height: 44px;
-            top: 69px; } }
+            top: 99px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
+            height: 89px;
             width: 541px;
             top: 94px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):after {
             border-bottom: 0;
             border-top: 1px solid #fff;
-            width: 560px;
-            height: 57px;
+            width: 597px;
+            height: 213px;
             top: 114px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
         width: 327px;
@@ -545,6 +582,10 @@
         border-left: 1px solid #fff;
         left: -327px;
         top: 40%; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
+            width: 373px;
+            left: -373px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
             width: 384px;
@@ -569,17 +610,19 @@
             left: -520px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
-            width: 633px;
-            left: -633px; } }
+            height: 99px;
+            width: 635px;
+            left: -635px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
-            width: 694px;
-            left: -694px; } }
+            height: 116px;
+            width: 700px;
+            left: -700px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:after {
-            height: 75px;
-            width: 781px;
-            left: -781px; } }
+            height: 137px;
+            width: 794px;
+            left: -794px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
         width: 273px;
         height: 100px;
@@ -587,6 +630,10 @@
         border-left: 1px solid #fff;
         left: -273px;
         top: 34%; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
+            width: 323px;
+            left: -323px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
             width: 333px;
@@ -609,22 +656,31 @@
             left: -450px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
-            width: 568px;
-            left: -568px; } }
+            height: 135px;
+            width: 567px;
+            left: -567px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
             width: 626px;
-            left: -626px; } }
+            left: -626px;
+            top: 55%; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):after {
+            height: 185px;
             width: 694px;
-            left: -694px; } }
+            left: -694px;
+            top: 64%; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
         width: 101px;
         height: 0;
         border-right: 0;
         left: -101px;
         top: 25%; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
+            width: 120px;
+            left: -120px;
+            top: 31%; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
             width: 148px;
@@ -650,11 +706,24 @@
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
             width: 296px;
-            left: -296px; } }
+            left: -296px;
+            top: 68%; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
-            width: 346px;
-            left: -346px; } }
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            height: 20px;
+            width: 331px;
+            left: -331px; } }
+        @media screen and (min-width: 2560px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):after {
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            height: 85px;
+            width: 335px;
+            left: -335px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
         width: 181px;
         height: 54px;
@@ -664,6 +733,10 @@
         border-bottom: 1px solid #fff;
         left: -181px;
         top: -5%; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
+            width: 216px;
+            left: -216px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
             width: 225px;
@@ -691,21 +764,28 @@
             top: 8%; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
-            width: 421px;
-            height: 57px;
-            left: -420px;
-            top: 8%; } }
+            width: 415px;
+            height: 49px;
+            left: -415px;
+            top: 47%; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            height: 20px;
             width: 465px;
-            height: 57px;
             left: -465px;
-            top: 16%; } }
+            top: 56%; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):after {
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            border-left: 1px solid #fff;
+            height: 107px;
             width: 500px;
             left: -500px;
-            top: 40%; } }
+            top: 70%; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
         border-right: 0;
         border-top: 0;
@@ -714,6 +794,11 @@
         height: 0;
         left: -349px;
         top: 6%; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
+            width: 379px;
+            left: -379px;
+            top: 16%; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
             width: 407px;
@@ -741,16 +826,22 @@
             top: 81%; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
-            width: 666px;
-            left: -666px;
+            border-left: 1px solid #fff;
+            border-bottom: 0;
+            border-top: 1px solid #fff;
+            height: 81px;
+            width: 646px;
+            left: -646px;
             top: 78%; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
-            width: 710px;
-            left: -710px;
+            height: 120px;
+            width: 712px;
+            left: -712px;
             top: 85%; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):after {
+            height: 260px;
             width: 802px;
             left: -802px; } }
       .why_plae .why_plae_common_content_block .why_plae_content:before {
@@ -766,6 +857,9 @@
         top: 150px;
         left: 299px;
         z-index: 2; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content:before {
+            left: 328px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content:before {
             left: 335px; } }
@@ -787,22 +881,25 @@
             left: 415px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content:before {
-            top: 160px;
+            top: 146px;
             left: 487px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content:before {
-            top: 150px;
+            top: 161px;
             left: 521px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content:before {
-            top: 120px;
-            left: 522px; } }
+            top: 184px;
+            left: 520px; } }
         @media screen and (max-width: 1024px) {
           .why_plae .why_plae_common_content_block .why_plae_content:before {
             display: none; } }
       .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
         top: 100px;
         left: 317px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
+            left: 356px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
             left: 346px; } }
@@ -820,13 +917,23 @@
             left: 442px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
-            left: 507px; } }
+            top: 120px;
+            left: 515px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
-            left: 545px; } }
+            top: 130px;
+            left: 563px; } }
+        @media screen and (min-width: 2560px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(2):before {
+            left: 565px;
+            top: 177px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
         top: 35px;
         left: 329px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
+            top: 40px;
+            left: 360px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
             top: 43px;
@@ -848,18 +955,23 @@
             left: 454px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
-            top: 50px;
-            left: 516px; } }
+            top: 105px;
+            left: 527px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
-            top: 70px;
-            left: 560px; } }
+            top: 138px;
+            left: 567px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(3):before {
-            top: 88px; } }
+            top: 212px;
+            left: 560px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
         top: -18px;
         left: 451px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
+            top: 2px;
+            left: 493px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
             top: 7px;
@@ -882,19 +994,22 @@
             left: 614px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
-            top: 56px;
-            left: 701px; } }
+            top: 135px;
+            left: 715px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
-            top: 85px;
+            top: 179px;
             left: 761px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.left_part:nth-child(4):before {
-            top: 156px;
-            left: 779px; } }
+            top: 322px;
+            left: 817px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
         top: 123px;
         left: -337px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
+            left: -384px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
             top: 119px;
@@ -916,17 +1031,22 @@
             left: -530px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
-            left: -644px; } }
+            top: 120px;
+            left: -646px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
-            left: -704px; } }
+            left: -710px;
+            top: 138px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:first-of-type:before {
-            left: -791px;
-            top: 108px; } }
+            left: -805px;
+            top: 160px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
         left: -284px;
         top: 131px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
+            left: -334px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
             top: 128px;
@@ -949,17 +1069,22 @@
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
             left: -577px;
-            top: 164px; } }
+            top: 168px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
             left: -636px;
-            top: 168px; } }
+            top: 196px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(2):before {
-            left: -704px; } }
+            left: -704px;
+            top: 252px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
         top: 17px;
         left: -109px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
+            top: 23px;
+            left: -129px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
             left: -159px; } }
@@ -979,13 +1104,23 @@
             left: -216px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
+            top: 66px;
             left: -303px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
-            left: -354px; } }
+            left: -342px;
+            top: 92px; } }
+        @media screen and (min-width: 2560px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(3):before {
+            left: -344px;
+            top: 155px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
         top: -21px;
         left: -192px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
+            top: -11px;
+            left: -226px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
             left: -236px;
@@ -1007,19 +1142,23 @@
             left: -337px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
-            left: -429px;
-            top: 0; } }
+            left: -425px;
+            top: 61px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
             left: -475px;
-            top: 8px; } }
+            top: 94px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(4):before {
             left: -510px;
-            top: 43px; } }
+            top: 192px; } }
       .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
         top: -7px;
         left: -368px; }
+        @media screen and (min-width: 1380px) {
+          .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
+            top: 2px;
+            left: -399px; } }
         @media screen and (min-width: 1400px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
             top: 17px;
@@ -1041,15 +1180,16 @@
             left: -548px; } }
         @media screen and (min-width: 1920px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
-            left: -675px;
-            top: 75px; } }
+            left: -657px;
+            top: 140px; } }
         @media screen and (min-width: 2048px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
             left: -723px;
-            top: 84px; } }
+            top: 191px; } }
         @media screen and (min-width: 2560px) {
           .why_plae .why_plae_common_content_block .why_plae_content.right_part:nth-child(5):before {
-            left: -812px; } }
+            left: -812px;
+            top: 338px; } }
       .why_plae .why_plae_common_content_block .why_plae_content h5 {
         font-family: "Yantramanav", sans-serif;
         color: #000;
