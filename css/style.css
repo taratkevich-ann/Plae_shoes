@@ -91,6 +91,8 @@
       padding: 33px 45px 200px 35px;
       margin-bottom: 15px; } }
   .intro .logo {
+    width: 142px;
+    height: 58px;
     margin-bottom: 171px; }
     @media screen and (max-width: 450px) {
       .intro .logo {
@@ -162,9 +164,9 @@
         margin-block-start: 0;
         margin-block-end: 0;
         padding-inline-start: 0; }
-        .intro .header_content nav ul li a {
+        .intro .header_content nav ul a {
           text-decoration: none; }
-          .intro .header_content nav ul li a:before {
+          .intro .header_content nav ul a:before {
             content: "";
             display: block;
             width: 8px;
@@ -173,11 +175,11 @@
             border-radius: 50%;
             margin-bottom: 16px;
             transition: 0.2s linear; }
-          .intro .header_content nav ul li a:hover:before, .intro .header_content nav ul li a.active:before {
+          .intro .header_content nav ul a:hover:before, .intro .header_content nav ul a.active:before {
             width: 12px;
             height: 12px;
             transition: 0.2s linear; }
-          .intro .header_content nav ul li a.active:before {
+          .intro .header_content nav ul a.active:before {
             position: relative;
             right: 1px; }
 
@@ -283,11 +285,20 @@
         left: -8px; }
       .what_clients_say .what_clients_say_info p.smaller_width:first-of-type:before {
         left: -31px; }
+        @media screen and (max-width: 360px) {
+          .what_clients_say .what_clients_say_info p.smaller_width:first-of-type:before {
+            left: -8px; } }
       .what_clients_say .what_clients_say_info p:first-of-type:after {
         bottom: -20px;
         right: -24px; }
+        @media screen and (max-width: 360px) {
+          .what_clients_say .what_clients_say_info p:first-of-type:after {
+            right: -13px; } }
       .what_clients_say .what_clients_say_info p.smaller_width:first-of-type:after {
         right: -30px; }
+        @media screen and (max-width: 360px) {
+          .what_clients_say .what_clients_say_info p.smaller_width:first-of-type:after {
+            right: -8px; } }
       .what_clients_say .what_clients_say_info p:last-of-type {
         padding: 0;
         margin-bottom: 0; }
@@ -350,8 +361,26 @@
           bottom: 127px; } }
     .the_range .slider .prev {
       left: -192px; }
+      @media screen and (max-width: 768px) {
+        .the_range .slider .prev {
+          left: -60px; } }
+      @media screen and (max-width: 450px) {
+        .the_range .slider .prev {
+          left: 160px; } }
+      @media screen and (max-width: 414px) {
+        .the_range .slider .prev {
+          left: 100px; } }
     .the_range .slider .next {
       right: -192px; }
+      @media screen and (max-width: 768px) {
+        .the_range .slider .next {
+          right: -60px; } }
+      @media screen and (max-width: 450px) {
+        .the_range .slider .next {
+          right: 160px; } }
+      @media screen and (max-width: 414px) {
+        .the_range .slider .next {
+          right: 100px; } }
     .the_range .slider .prev:hover, .the_range .slider .next:hover {
       color: #fff;
       background: #c2c2c2;
@@ -376,6 +405,9 @@
   @media screen and (min-width: 2560px) {
     .why_plae {
       padding-bottom: 258px; } }
+  @media screen and (max-width: 450px) {
+    .why_plae {
+      background-size: cover; } }
   .why_plae h3 {
     margin-bottom: 13px; }
   .why_plae p {
@@ -1272,6 +1304,9 @@
   max-width: 350px;
   margin: auto;
   margin-bottom: 76px; }
+  @media screen and (max-width: 360px) {
+    .like_to_stock .like_to_stock_contacts {
+      justify-content: space-around; } }
   .like_to_stock .like_to_stock_contacts a {
     text-decoration: none;
     font-size: 18px; }

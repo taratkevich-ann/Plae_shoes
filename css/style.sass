@@ -108,6 +108,8 @@ $second-additional-color: #dcdcdc
     margin-bottom: 15px
 
   .logo
+    width: 142px
+    height: 58px
     margin-bottom: 171px
     @include max-screen(450px)
       margin-bottom: 150px
@@ -178,28 +180,27 @@ $second-additional-color: #dcdcdc
         margin-block-end: 0
         padding-inline-start: 0
 
-        li
-          a
-            text-decoration: none
+        a
+          text-decoration: none
 
-            &:before
-              content: ""
-              display: block
-              width: 8px
-              height: 8px
-              background-color: $second-additional-color
-              border-radius: 50%
-              margin-bottom: 16px
-              transition: .2s linear
+          &:before
+            content: ""
+            display: block
+            width: 8px
+            height: 8px
+            background-color: $second-additional-color
+            border-radius: 50%
+            margin-bottom: 16px
+            transition: .2s linear
 
-            &:hover:before, &.active:before
-              width: 12px
-              height: 12px
-              transition: .2s linear
+          &:hover:before, &.active:before
+            width: 12px
+            height: 12px
+            transition: .2s linear
 
-            &.active:before
-              position: relative
-              right: 1px
+          &.active:before
+            position: relative
+            right: 1px
 
 /* end intro block */
 
@@ -315,13 +316,19 @@ $second-additional-color: #dcdcdc
 
       &.smaller_width:first-of-type:before
         left: -31px
+        @include max-screen(360px)
+          left: -8px
 
       &:first-of-type:after
         bottom: -20px
         right: -24px
+        @include max-screen(360px)
+          right: -13px
 
       &.smaller_width:first-of-type:after
         right: -30px
+        @include max-screen(360px)
+          right: -8px
 
       &:last-of-type
         padding: 0
@@ -396,9 +403,22 @@ $second-additional-color: #dcdcdc
 
     .prev
       left: -192px
+      @include max-screen(768px)
+        left: -60px
+      @include max-screen(450px)
+        left: 160px
+      @include max-screen(414px)
+        left: 100px
+
 
     .next
       right: -192px
+      @include max-screen(768px)
+        right: -60px
+      @include max-screen(450px)
+        right: 160px
+      @include max-screen(414px)
+        right: 100px
 
     .prev:hover, .next:hover
       color: $first-main-color
@@ -406,7 +426,6 @@ $second-additional-color: #dcdcdc
       transition: all .5s linear
 
 /* end the_range block */
-
 
 /* start why_plae block */
 .why_plae
@@ -422,6 +441,8 @@ $second-additional-color: #dcdcdc
     padding-bottom: 144px
   @include min-screen(2560px)
     padding-bottom: 258px
+  @include max-screen(450px)
+    background-size: cover
 
   h3
     @extend %h3
@@ -1187,6 +1208,8 @@ $second-additional-color: #dcdcdc
     max-width: 350px
     margin: auto
     margin-bottom: 76px
+    @include max-screen(360px)
+      justify-content: space-around
 
     a
       text-decoration: none
