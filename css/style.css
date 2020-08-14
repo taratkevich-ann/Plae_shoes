@@ -78,9 +78,13 @@
   margin: 0;
   padding: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 /* start intro block */
 .intro.lazy {
-  background-image: none; }
+  background-image: none;
+  background-color: lightgrey; }
 
 .intro {
   background-image: url("../images/intro-bg_01.jpg");
@@ -396,7 +400,8 @@
 /* end the_range block */
 /* start why_plae block */
 .why_plae.lazy {
-  background-image: none; }
+  background-image: none;
+  background-color: #dcdcdc; }
 
 .why_plae {
   background-image: url("../images/why-pae-bg_02.jpg");
