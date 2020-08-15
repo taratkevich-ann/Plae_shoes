@@ -1,23 +1,24 @@
 'use strict';
 
-// /* scroll function*/
-// function createSmoothScroll() {
-//     console.log("entrance");
-//     let anchors = document.querySelectorAll('header a[href*="#"');
-//     for(let i = 0; i < anchors.length-1; i++) {
-//         let anchor = anchors[i];
-//         if (anchor) {
-//             anchor.addEventListener('click', function (e){
-//                 e.preventDefault();
-//                 let anchorId = this.getAttribute('href');
-//                 document.querySelector(anchorId).scrollIntoView({
-//                     behavior: "smooth", block: "start"
-//                 })
-//             })
-//         }
-//     }
-// }
-// createSmoothScroll();
+/* scroll function*/
+function createSmoothScroll() {
+    console.log("entrance");
+    let anchors = document.querySelectorAll('header a[href*="#"');
+    for(let i = 0; i < anchors.length-1; i++) {
+        let anchor = anchors[i];
+        if (anchor) {
+            anchor.addEventListener('click', function (e){
+                e.preventDefault();
+                let anchorId = this.getAttribute('href');
+                console.log(anchorId);
+                document.querySelector(anchorId).scrollIntoView({
+                    behavior: "smooth", block: "start"
+                })
+            })
+        }
+    }
+}
+createSmoothScroll();
 
 /* active anchor*/
 function emitActiveAnchor() {
@@ -63,6 +64,7 @@ window.onscroll = function()
         }
     }
 };
+
 /* slider */
 let slideIndex = 1;
 showSlides(slideIndex);

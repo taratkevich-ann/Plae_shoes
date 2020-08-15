@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beab2fa5-c29b-4f58-9a3e-5aa1fa7f7297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/ls.bgset.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/ls.respimg.min.js" afterDir="false" />
+    <list default="true" id="beab2fa5-c29b-4f58-9a3e-5aa1fa7f7297" name="Default Changelist" comment="last changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/048a7cddc28bce718527c2b8593d3dd72b7e6691/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/048a7cddc28bce718527c2b8593d3dd72b7e6691/style.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +95,7 @@
       <workItem from="1597237509327" duration="11817000" />
       <workItem from="1597310724706" duration="7992000" />
       <workItem from="1597417524473" duration="14122000" />
-      <workItem from="1597504403003" duration="5694000" />
+      <workItem from="1597504403003" duration="7044000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1595676576613</created>
@@ -279,14 +272,20 @@
       <option name="project" value="LOCAL" />
       <updated>1597432504399</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add new lazyload for bg-img">
+      <created>1597510715323</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597510715323</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create project" />
     <MESSAGE value="add fonts, created block &quot;intro&quot;" />
     <MESSAGE value="add fontawesome, add styles for block &quot;intro&quot;" />
     <MESSAGE value="created block &quot;about_plae&quot;" />
@@ -311,13 +310,14 @@
     <MESSAGE value="get rid of horizontal scrolling in wow.js" />
     <MESSAGE value="add lazy loading for bg-img" />
     <MESSAGE value="add active anchor and new favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add active anchor and new favicon" />
+    <MESSAGE value="add new lazyload for bg-img" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new lazyload for bg-img" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1597432497643">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1597511982249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597432497643" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597511982249" />
     <state x="301" y="129" key="EditFileWatcherDialog" timestamp="1595676378569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -326,10 +326,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596891416465" />
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1597432509065">
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1597510723308">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597432509065" />
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597510723308" />
     <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1597504405319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
