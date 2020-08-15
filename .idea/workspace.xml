@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beab2fa5-c29b-4f58-9a3e-5aa1fa7f7297" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/favicon_03.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ls.bgset.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ls.respimg.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/048a7cddc28bce718527c2b8593d3dd72b7e6691/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/048a7cddc28bce718527c2b8593d3dd72b7e6691/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -101,7 +101,8 @@
       <workItem from="1597001303261" duration="1056000" />
       <workItem from="1597237509327" duration="11817000" />
       <workItem from="1597310724706" duration="7992000" />
-      <workItem from="1597417524473" duration="13276000" />
+      <workItem from="1597417524473" duration="14122000" />
+      <workItem from="1597504403003" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1595676576613</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597312755104</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add active anchor and new favicon">
+      <created>1597432504399</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1597432504399</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,13 +310,14 @@
     <MESSAGE value="corrected adaptive, repl logo.png and favicon.png with svg, shorten selector in nav" />
     <MESSAGE value="get rid of horizontal scrolling in wow.js" />
     <MESSAGE value="add lazy loading for bg-img" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lazy loading for bg-img" />
+    <MESSAGE value="add active anchor and new favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add active anchor and new favicon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1597312746625">
+    <state x="331" y="0" key="CommitChangelistDialog2" timestamp="1597432497643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597312746625" />
+    <state x="331" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1597432497643" />
     <state x="301" y="129" key="EditFileWatcherDialog" timestamp="1595676378569">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,14 +326,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="84" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596891416465" />
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1597312760953">
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2" timestamp="1597432509065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597312760953" />
-    <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1597417526340">
+    <state x="261" y="58" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597432509065" />
+    <state x="379" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1597504405319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="185" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597417526340" />
+    <state x="379" y="185" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597504405319" />
     <state x="335" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596970253487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -82,12 +82,7 @@ html {
   scroll-behavior: smooth; }
 
 /* start intro block */
-.intro.lazy {
-  background-image: none;
-  background-color: lightgrey; }
-
 .intro {
-  background-image: url("../images/intro-bg_01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -399,12 +394,7 @@ html {
 
 /* end the_range block */
 /* start why_plae block */
-.why_plae.lazy {
-  background-image: none;
-  background-color: #dcdcdc; }
-
 .why_plae {
-  background-image: url("../images/why-pae-bg_02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;

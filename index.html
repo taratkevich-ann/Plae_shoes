@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="intro lazy section" id="intro">
+<header class="intro lazyload active_section" id="intro" data-bgset="images/intro-bg_01.jpg">
     <div class="logo wow slideInLeft">
         <a href="index.html">
             <img data-src="images/logo.svg" alt="logo" class="lazyload">
@@ -59,7 +59,7 @@
         </nav>
     </div>
 </header>
-<section class="about_plae section" id="about_plae">
+<section class="about_plae active_section" id="about_plae">
     <div class="about_info wow slideInLeft">
         <h3>About Plae</h3>
         <p>Previously a Designer for Puma and Adidas, Head Designer Ryan Ringholz has started a new revolution in kids
@@ -78,7 +78,7 @@
         <img data-src="images/about_img_03.jpg" alt="about_img" class="lazyload">
     </div>
 </section>
-<section class="what_clients_say section" id="what_clients_say">
+<section class="what_clients_say active_section" id="what_clients_say">
     <div class="what_clients_say_img need_margin wow slideInLeft">
         <img data-src="images/first-review_02.jpg" alt="what_our_clients_say_img" class="lazyload">
     </div>
@@ -100,7 +100,7 @@
         <img data-src="images/second-review_03.jpg" alt="what_clients_say_img" class="lazyload">
     </div>
 </div>
-<section class="the_range section" id="the_range">
+<section class="the_range active_section" id="the_range">
     <h3 class="wow slideInLeft">The Range</h3>
     <p class="wow slideInRight">View the styles available now from select stockists</p>
     <div class="slider wow slideInLeft">
@@ -157,7 +157,7 @@
         <a class="next switching_slider" onclick="plusSlide()">&#10095;</a>
     </div>
 </section>
-<section class="why_plae lazy section" id="why_plae">
+<section class="why_plae lazyload active_section" id="why_plae" data-bgset="images/why-pae-bg_02.jpg">
     <h3 class="wow slideInLeft">Why Plae</h3>
     <p class="wow slideInRight">Some of the features that make Plae shoes so good for kids</p>
     <div class="why_plae_common_content_block">
@@ -209,7 +209,7 @@
         </div>
     </div>
 </section>
-<section class="find_us section" id="find_us">
+<section class="find_us active_section" id="find_us">
     <h3 class="wow slideInLeft">Where can you find us</h3>
     <p class="wow slideInRight">See below our UK stockist list</p>
     <div class="find_us_container">
@@ -345,7 +345,7 @@
         </div>
     </div>
 </section>
-<section class="like_to_stock section" id="like_to_stock">
+<section class="like_to_stock active_section" id="like_to_stock">
     <h3 class="wow slideInLeft">Like to stock Plae</h3>
     <p class="wow slideInRight">Call or email us to send an enquiry</p>
     <div class="like_to_stock_contacts wow slideInLeft">
@@ -353,7 +353,7 @@
         <a href="#" id="like_to_stock_number">07947 301292</a>
     </div>
 </section>
-<section class="be_the_first section" id="be_the_first">
+<section class="be_the_first active_section" id="be_the_first">
     <h3 class="wow slideInLeft">Be the first to see goplae.co.uk</h3>
     <p class="wow slideInRight">Sign Up for the latest news</p>
     <form action="" method="post">
@@ -364,6 +364,8 @@
 <footer class="wow slideInDown">
     <p>Copyright © 2015 Craftymothers ltd. All Rights Reserved</p>
 </footer>
+<script src="js/ls.bgset.min.js"></script>
+<script src="js/ls.respimg.min.js"></script>
 <script src="js/lazysizes.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script>
